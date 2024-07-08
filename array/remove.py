@@ -1,5 +1,4 @@
 number=int(input("Enter the length of array: "))
-
 arr=[]
 for i in range(number):
     arr.append(int(input(f"Enter the element at position {i+1}: ")))
