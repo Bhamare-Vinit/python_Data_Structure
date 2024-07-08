@@ -3,7 +3,7 @@ target=input("Enter the element you want to remove: ")
 
 if target in thisset:
     thisset.remove(target)
-    print{f"Element {target} is removed from the set"}
+    print(f"Element {target} is removed from the set")
     print(thisset)
 
 else:
